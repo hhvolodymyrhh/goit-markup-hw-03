@@ -211,6 +211,10 @@ padding-bottom: 120px;
     display: flex;
     flex-wrap:wrap;
     column-gap: 24px;
+    row-gap: 48px;
+
+}
+.portfolio-list{
 
 }
 .portfolio-wrapper{
@@ -240,7 +244,10 @@ padding: 32px 16px;
     padding: 100px 0;
     
 }
-
+.logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-second-part{
     color: #f4f4fd;
 }
