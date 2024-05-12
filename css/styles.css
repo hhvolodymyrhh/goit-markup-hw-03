@@ -106,7 +106,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;   
-    
+    max-width: 496px;
 }
 .solutions-button{
     font-weight: 500;
@@ -119,6 +119,10 @@ img {
     border-radius: 4px;
     padding: 16px 32px;
     margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
 }
 .solutions-button:hover,
 .solutions-button:focus {
