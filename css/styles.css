@@ -6,7 +6,8 @@ body {
 a {
     text-decoration: none; 
 }
-h1, h2, h3, h4, h5, h6, p, {
+h1, h2, h3, h4,
+ h5, h6, p {
 margin: 0;
 padding: 0;
 }
@@ -155,6 +156,7 @@ width: calc((100% - 72px) / 4);
 }
 .features-list:last-child {
     margin-right: 0px;
+
 }
 .features-item{
     font-weight: 500;
@@ -192,10 +194,8 @@ width: calc((100% - 72px) / 4);
     gap: 24px;
 }
 .team-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
 }
 .team-wrapper{
     padding: 32px 0;
@@ -258,7 +258,7 @@ padding: 32px 16px;
     padding: 100px 0;
     
 }
-.logo{
+.logo-footer{
     display: inline-block;
     margin-bottom: 16px;
 }
